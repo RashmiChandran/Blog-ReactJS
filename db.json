@@ -1,0 +1,101 @@
+{
+  "articles": [
+    {
+      "title": "Day 1",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "date": "January 4th, 2020",
+      "image": "1",
+      "id": "1",
+      "comments": [
+        {
+          "id": "1",
+          "user": "Ricky",
+          "message": "Nice article",
+          "date": "January 26th, 2020",
+          "isEdited": false
+        },
+        {
+          "id": "2",
+          "user": "Jason",
+          "message": "Good information",
+          "date": "January 28th, 2020",
+          "isEdited": false
+        }
+      ]
+    },
+    {
+      "title": "Day 2",
+      "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "date": "April 4th, 2020",
+      "image": "2",
+      "id": "2",
+      "comments": []
+    },
+    {
+      "title": "Day 3",
+      "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "date": "November 4th, 2020",
+      "image": "3",
+      "id": "3",
+      "comments": []
+    },
+    {
+      "title": "Day 4",
+      "content": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "date": "January 5th, 2021",
+      "image": "4",
+      "id": "4",
+      "comments": []
+    },
+    {
+      "title": "Day 5",
+      "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "date": "March 5th, 2021",
+      "image": "5",
+      "id": "5",
+      "comments": []
+    }
+  ],
+  "comments": [
+    {
+      "id": 3,
+      "user": "Anonymous",
+      "message": "Hi",
+      "date": "January 26th, 2020",
+      "isEdited": false,
+      "parentId": "2"
+    },
+    {
+      "id": 4,
+      "user": "Anonymous",
+      "message": "Hello edited comments",
+      "date": "January 26th, 2020",
+      "isEdited": false,
+      "parentId": "1"
+    },
+    {
+      "id": 5,
+      "user": "Anonymous",
+      "message": "Hi2",
+      "date": "January 26th, 2020",
+      "isEdited": false,
+      "parentId": "2"
+    },
+    {
+      "user": "Anonymous",
+      "message": "Added comments",
+      "date": "January 26th, 2020",
+      "isEdited": false,
+      "parentId": "1",
+      "id": 6
+    },
+    {
+      "user": "Anonymous",
+      "message": "New comments",
+      "date": "January 26th, 2020",
+      "isEdited": false,
+      "parentId": "1",
+      "id": 7
+    }
+  ]
+}

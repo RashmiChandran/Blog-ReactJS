@@ -28,6 +28,19 @@
   color: #61dafb;
 }
 
+.add-icon{
+  position: fixed;
+  right: 3%;
+  bottom: 5%;
+  background-color: #0a3d62 !important;
+  border-radius: 50% !important;
+  font-size: 5rem !important;
+  display: flex !important;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
