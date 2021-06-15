@@ -41,7 +41,7 @@ const CommentsSection = ({ id }) => {
         "parentId": commentsParentId
       }
       console.log(reqBody,commentsParentId)
-    const res = await fetch(`http://localhost:5000/comments`, {
+    const res = await fetch(`https://my-json-server.typicode.com/RashmiChandran/Blog-ReactJS/comments`, {
       method: "POST",
       headers: {
         "Content-type": "application/json",
@@ -66,7 +66,7 @@ const CommentsSection = ({ id }) => {
     
 }
   const editComment = async(item) => {
-    const res = await fetch(`http://localhost:5000/comments/${item.id}`, {
+    const res = await fetch(`https://my-json-server.typicode.com/RashmiChandran/Blog-ReactJS/comments/${item.id}`, {
       method: "PUT",
       headers: {
         "Content-type": "application/json",
@@ -76,7 +76,7 @@ const CommentsSection = ({ id }) => {
 
   }
   const deleteComment = async (item) => {
-    const res = await fetch(`http://localhost:5000/comments/${item.id}`, {
+    const res = await fetch(`https://my-json-server.typicode.com/RashmiChandran/Blog-ReactJS/comments/${item.id}`, {
       method: "DELETE",
       headers: {
         "Content-type": "application/json",
@@ -101,7 +101,7 @@ const CommentsSection = ({ id }) => {
   };
 
   const fetchComments = async () => {
-    const res = await fetch(`http://localhost:5000/comments?parentId=${commentsParentId}`);
+    const res = await fetch(`https://my-json-server.typicode.com/RashmiChandran/Blog-ReactJS/comments?parentId=${commentsParentId}`);
     const data = await res.json();
     return data;
   };

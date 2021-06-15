@@ -19,12 +19,10 @@ function App() {
   }, []);
 
   const fetchArticles = async () =>{
-    const res = await fetch('http://localhost:5000/articles')
+    const res = await fetch('https://my-json-server.typicode.com/RashmiChandran/Blog-ReactJS/articles')
     const data = await res.json();
     return data;
-  }
-
-  
+  } 
    
 
   return (

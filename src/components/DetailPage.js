@@ -15,7 +15,7 @@ const DetailPage = (props) => {
                 <p>{item.content}</p>
                 <hr className="my-2" />
             </Jumbotron>
-            <CommentsSection id={item.id}/>
+            <CommentsSection id={item.id} key={item.id}/>
         </div>
     )
 }
