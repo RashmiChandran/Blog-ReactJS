@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL >
         <Switch>
         <Route
                 exact
