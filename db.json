@@ -6,22 +6,7 @@
       "date": "January 4th, 2020",
       "image": "1",
       "id": "1",
-      "comments": [
-        {
-          "id": "1",
-          "user": "Ricky",
-          "message": "Nice article",
-          "date": "January 26th, 2020",
-          "isEdited": false
-        },
-        {
-          "id": "2",
-          "user": "Jason",
-          "message": "Good information",
-          "date": "January 28th, 2020",
-          "isEdited": false
-        }
-      ]
+      "comments": []
     },
     {
       "title": "Day 2",

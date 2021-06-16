@@ -27,13 +27,13 @@ code {
 }
 
 .card-item{
-  flex-direction: row !important;
+  flex-direction: row;
   height: 170px;
   margin: 10px 0;
 }
 
 .thumbnail-image{
-  width: 180px !important;
+  width: 180px;
 }
 
 .card-text{
@@ -75,10 +75,17 @@ code {
     flex: 0 0 48.9633%;
     margin-left: 0;
     margin-right: 20px;
+    flex-direction: row !important;
   }
 
   .card-item:nth-child(even){
     margin-right: 0px;
+  }
+  .thumbnail-image{
+    width: 180px !important;
+  }
+  .logo{
+    height: 100% !important;
   }
 }
 
@@ -126,4 +133,17 @@ code {
 .comments-icon{
   position: absolute;
   right: 5%;
+}
+
+@media (min-width: 360px){
+  .card-item{
+    flex-direction: column;
+    height: 100%;
+  }
+  .thumbnail-image{
+    width: 100%;
+  }
+  .logo{
+    height: 250px;
+  }
 }

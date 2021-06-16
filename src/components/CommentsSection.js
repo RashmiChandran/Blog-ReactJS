@@ -110,7 +110,7 @@ const CommentsSection = ({ id }) => {
   return (
     <div>
       <form onSubmit={onSubmitForm}>
-        <InputGroup>
+        <InputGroup className="mb-3">
           <InputGroupAddon addonType="prepend">
             <img src="assets/user-placeholder.jpg" className="user-image"></img>
           </InputGroupAddon>
@@ -121,7 +121,7 @@ const CommentsSection = ({ id }) => {
       {comments && comments.length ? (
         <div>
           {comments.map((commentItem) => [
-            <Card className="p-0">
+            <Card className="p-0" key={commentItem.id}>
               <CardBody className="text-left">
                 <img
                   src="assets/user-placeholder.jpg"

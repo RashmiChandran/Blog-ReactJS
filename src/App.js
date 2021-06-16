@@ -42,7 +42,7 @@ function App() {
             <Route path="/blog">
               <Dashboard articlesItems = {articles}/>
              
-              <Button className="add-icon" ><BsPlus/></Button>
+              {/* <Button className="add-icon" ><BsPlus/></Button> */}
             </Route>
             <Route path="/details" component={DetailPageWithRouter}>
               <DetailPageWithRouter/>
