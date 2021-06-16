@@ -7,7 +7,7 @@ const DetailPage = (props) => {
     return (
        
         <div className="container">
-             <img src={ `/assets/${item.image}.jpg`} className="logo"></img>
+             <img src={ `${process.env.PUBLIC_URL}/assets/${item.image}.jpg`} className="logo"></img>
              <Jumbotron className="text-left">
                 <h3 className="display-5 text-left">{item.title}</h3>
                 <hr className="my-2" />
