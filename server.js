@@ -8,3 +8,6 @@ server.use(middlewares);
 server.use(router);
 
 server.listen(port);
+server.get('/*', (req, res) => {
+    res.sendFile(path.join(__dirname, '/../', 'build', 'index.html'));
+});
